@@ -13,7 +13,7 @@ size_t my_strlen(char *s)
 int main(void)
 {
    int i;
-   char *s[] = 
+   const char *s[] = 
    {
       "Git tutorials",
       "Tutorials Point"
